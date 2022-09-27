@@ -3,8 +3,8 @@
 cd /IYUU
 
 if [[ ! -d .git ]]; then
-    #git clone https://github.com/ledccn/IYUUPlus.git /tmp/IYUU
-    git clone https://gitee.com/ledc/iyuuplus.git /tmp/IYUU
+    git clone https://github.com/singworld/IYUUPlus.git /tmp/IYUU
+    #git clone https://gitee.com/ledc/iyuuplus.git /tmp/IYUU
     find /tmp/IYUU -mindepth 1 -maxdepth 1 | xargs -I {} cp -r {} /IYUU
     rm -rf /tmp/IYUU
 else

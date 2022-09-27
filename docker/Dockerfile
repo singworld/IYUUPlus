@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 
 LABEL maintainer="david <367013672@qq.com>" version="2.0"
 
